@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+header {
+  margin-top: 5vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+nav {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-bar {
+  display: flex;
+  gap: 20px;
+}
+main {
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+p {
+  color: var(--gray-600, #4b5563);
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+button {
+  color: var(--gray-600, #4b5563);
+}
+#download {
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+.availablity {
+  display: flex;
+  gap: 10px;
+}
+#circle {
+  margin-top: 1.5%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgb(35, 230, 35);
+}
+.picture-bar {
+  margin-left: 9vw;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 30px;
+}
+.location {
+  display: flex;
+  gap: 5px;
+}
+.links {
+  display: flex;
+  gap: 10px;
+}
+.svg {
+  margin-top: 0.5%;
+  width: 20px;
+  height: 20px;
+}
+#picture-column img {
+  padding: 10px;
+}
+#column-clone {
+  margin-top: 50px;
+  margin-left: 0px;
+  width: 30px;
+  height: 250px;
+  background-color: rgb(196, 192, 192);
+}
+#picture-column {
+  display: flex;
+}
+#row-clone {
+  margin-top: -2px;
+  margin-left: 50px;
+  width: 280px;
+  height: 30px;
+  background-color: rgb(196, 192, 192);
+}
+#last-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#line {
+  margin-top: 1.2%;
+  height: 20px;
+  width: 1px;
+  background-color: #acaeb0;
+}
+label {
+  font-weight: 700;
+  font-size: larger;
+}
