@@ -81,11 +81,51 @@ const skills = [
     icon: <GitIcon />,
     title: "Git",
   },
+  {
+    icon: <FigmaIcon />,
+    title: "Figma",
+  },
+  {
+    icon: <CypressIcon />,
+    title: "Cypress",
+  },
+  {
+    icon: <StorybookIcon />,
+    title: "Storybook",
+  },
+  {
+    icon: <JavaScriptIcon />,
+    title: "JavaScript",
+  },
+  {
+    icon: <TypeScriptIcon />,
+    title: "TypeScript",
+  },
+  {
+    icon: <ReactIcon />,
+    title: "React",
+  },
+  // {
+  //   icon: <NextJsIcon />,
+  //   title: "Next.js",
+  // },
+  {
+    icon: <NodeJsIcon />,
+    title: "Node.js",
+  },
+  {
+    icon: <ExpressJsIcon />,
+    title: "Express.js",
+  },
 ];
 export const Skills = () => {
   const SetOfSkills = [];
   skills.forEach((skill) => {
     SetOfSkills.push(<Skill icon={skill.icon} title={skill.title} />);
   });
-  return <div className="flex justify-center gap-8">{SetOfSkills}</div>;
+  return (
+    <div className="flex mt-50 w-90 flex-wrap justify-center mx-20 gap-16 my-20">
+      {SetOfSkills}
+    </div>
+  );
 };
