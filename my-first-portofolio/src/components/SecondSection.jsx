@@ -1,16 +1,16 @@
 import React from "react";
 export const SecondSection = () => {
   return (
-    <section className="flex flex-col gap-16 bg-gray-100 w-full px-20 py-20">
-      <div class="flex m-auto justify-center rounded-2xl h-8 w-32 bg-gray-300">
+    <section className="flex flex-col gap-16 bg-gray-100">
+      <div class="flex m-auto justify-center rounded-2xl h-8 w-32 bg-gray-300 sm: mt-10">
         About me
       </div>
-      <div className="flex justify-between">
+      <div className="sm: flex flex-col">
         <div>
-          <img className="h-96 w-96" src="/section2img.jpg"></img>
+          <img className="h-80 mx-auto" src="/section2img.jpg"></img>
         </div>
-        <div className="flex flex-col w-1/2 gap-4">
-          <p className="text-3xl text-black">
+        <div className="flex flex-col gap-4 sm: ml-5 my-20 w-full">
+          <p className="text-black sm: text-xl">
             Curious about me? Here you have it:
           </p>
           <p className="flex flex-col gap-4">

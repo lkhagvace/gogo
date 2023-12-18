@@ -124,8 +124,14 @@ export const Skills = () => {
     SetOfSkills.push(<Skill icon={skill.icon} title={skill.title} />);
   });
   return (
-    <div className="flex mt-50 w-90 flex-wrap justify-center mx-20 gap-16 my-20">
-      {SetOfSkills}
+    <div className="flex flex-col justify-center sm: mx-auto">
+      <p className="mx-auto w-16 h-8 flex justify-center m-auto rounded-2xl bg-gray-300">
+        Skills
+      </p>
+      <p className="mx-auto my-8">
+        The skills, tools and technologies I am really good at:
+      </p>
+      <div className="flex mt-8 flex-wrap justify-center">{SetOfSkills}</div>
     </div>
   );
 };

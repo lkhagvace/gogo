@@ -28,7 +28,6 @@ nav {
 }
 main {
   display: flex;
-  width: 90vw;
   margin: auto;
   justify-content: space-between;
   margin-top: 5vw;
